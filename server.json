@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/bb-mcp",
+  "title": "Banco do Brasil MCP",
+  "description": "Connect your Banco do Brasil account to AI via Brazil's Open Finance: balances, statements, cards, i",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/bb-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_bb"
+    }
+  ]
+}
